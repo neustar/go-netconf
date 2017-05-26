@@ -5,7 +5,7 @@ import (
 	"encoding/xml"
 	"flag"
 	"fmt"
-	"github.com/Juniper/go-netconf/netconf"
+	"github.com/neustar/go-netconf/netconf"
 	"golang.org/x/crypto/ssh"
 	"golang.org/x/crypto/ssh/terminal"
 	"log"

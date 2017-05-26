@@ -5,7 +5,7 @@ import (
 	"golang.org/x/crypto/ssh"
 	"log"
 
-	"github.com/Juniper/go-netconf/netconf"
+	"github.com/neustar/go-netconf/netconf"
 )
 
 func main() {

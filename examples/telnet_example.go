@@ -3,8 +3,8 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/Juniper/go-netconf/netconf"
-	"github.com/Juniper/go-netconf/netconf/jnpr"
+	"github.com/neustar/go-netconf/netconf"
+	"github.com/neustar/go-netconf/netconf/jnpr"
 	"os"
 )
 
@@ -34,10 +34,11 @@ func main() {
 	fmt.Printf("Session Id: %d\n\n", s.SessionID)
 
 	//reply, err := s.Exec([]byte("<rpc><get-config><source><running/></source></get-config></rpc>"))
+	/*
 	reply, err := s.ExecRPC(netconf.RPCGetConfig("running"))
 	if err != nil {
 		panic(err)
 	}
 	fmt.Printf("Reply: %+v", reply)
-
+	*/
 }

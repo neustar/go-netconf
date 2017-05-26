@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"regexp"
 
-	"github.com/Juniper/go-netconf/netconf"
+	"github.com/neustar/go-netconf/netconf"
 )
 
 const (
